@@ -47,13 +47,9 @@ a:hover {
   font-size: 70px;
   top: 30%;
 }
-.link {
-  font-size: 30px;
-  top: 50%;
-}
 .footer {
   position: fixed;
-  bottom: 0;
+  bottom: 10px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
