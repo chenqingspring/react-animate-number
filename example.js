@@ -3,7 +3,7 @@ require=(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof requ
 
 var React = require('react');
 var ReactDOM = require('react-dom');
-var ReactAnimateNumber = require('react-animate-number');
+var AnimateNumber = require('react-animate-number');
 
 var App = React.createClass({
 	displayName: 'App',
@@ -12,7 +12,7 @@ var App = React.createClass({
 		return React.createElement(
 			'div',
 			null,
-			React.createElement(ReactAnimateNumber, { number: 10000, speed: 100 })
+			React.createElement(AnimateNumber, { number: 10000, speed: 100 })
 		);
 	}
 });
