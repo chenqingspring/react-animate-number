@@ -27,9 +27,9 @@ npm install react-animate-number --save
 ## Usage
 
 ```
-var ReactAnimateNumber = require('react-animate-number');
+var AnimateNumber = require('react-animate-number');
 
-<ReactAnimateNumber number={10000} speed={100}/>
+<AnimateNumber number={10000} speed={100}/>
 ```
 
 ## Development (`src`, `lib` and the build process)
